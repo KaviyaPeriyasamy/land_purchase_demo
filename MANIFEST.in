@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include land_purchase_demo *.css
+recursive-include land_purchase_demo *.csv
+recursive-include land_purchase_demo *.html
+recursive-include land_purchase_demo *.ico
+recursive-include land_purchase_demo *.js
+recursive-include land_purchase_demo *.json
+recursive-include land_purchase_demo *.md
+recursive-include land_purchase_demo *.png
+recursive-include land_purchase_demo *.py
+recursive-include land_purchase_demo *.svg
+recursive-include land_purchase_demo *.txt
+recursive-exclude land_purchase_demo *.pyc
