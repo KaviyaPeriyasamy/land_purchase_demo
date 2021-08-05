@@ -57,7 +57,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "land_purchase_demo.install.before_install"
-# after_install = "land_purchase_demo.install.after_install"
+after_install = "land_purchase_demo.defaults.defaults.after_install"
 
 # Desk Notifications
 # ------------------

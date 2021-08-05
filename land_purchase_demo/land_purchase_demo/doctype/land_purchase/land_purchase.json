@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "autoname": "LP.#####",
+ "creation": "2021-08-04 16:21:20.072992",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "seller_name",
+  "phone_number",
+  "particulars",
+  "column_break_3",
+  "noc",
+  "land_document",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "seller_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Seller Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "noc",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "NOC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "land_document",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Land Document",
+   "reqd": 1
+  },
+  {
+   "fieldname": "particulars",
+   "fieldtype": "Small Text",
+   "label": "Particulars"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Land Purchase",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-05 07:54:59.599278",
+ "modified_by": "Administrator",
+ "module": "Land Purchase Demo",
+ "name": "Land Purchase",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
